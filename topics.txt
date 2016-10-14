@@ -1,0 +1,78 @@
+History and General Concepts of Programming Languages
+
+* Turing Machines, Lambda Calculus and 
+  Predicate Logic as Foundations of programming languages
+* History of FORTRAM, LISP, Algol, Pascal, Simula, PROLOG, etc.
+* Syntax vs semantics
+* Extended BNF grammars and Rail-diagrams for specifting formal syntax
+* Architecture of a compiler
+* Bindings, scopes and extents
+* Recursion and activation records
+* Types, type-checking and type equivalences
+* Type inference (essentially unification)
+
+
+Haskell and Functional Programming
+
+* Lambda Calculus (a foundation of all FP)
+* Bound vs free variables, lexical scope
+* Lambda reduction as computation
+* Function as values and closures
+* Call-by-value vs call-by-name evaluations
+* Polymorphic type inference
+* Non-strict and full-lazy evaluation
+* Pattern matching style of function definition
+* Currying and partial function applications
+* Higher order functions
+* Recursive (structural inductive) list programming
+* Infinite lists and dataflow programming
+* List comprehension, map and filter
+
+
+PROLOG and Logic Programming
+
+* Propositional logic
+* Deduction as computation (modus ponen)
+* Predicate logic and clausal logic programs
+* Database and logic
+* Non-determinism,
+* AND-OR search strategies,
+* Unification,
+* Untyped logic variables,
+* Predicate logic-based inference computation,
+* Recursively-defined relations,
+* Constraint-based generate-and-test or test-and-generate programming techniques,
+* Unbounded logic variables as computed answers,
+* Full pattern-matching with multiple input/output patterns,
+* Declarative (what) and procedural (how) style of programming, etc.
+
+
+Go and Concurrent Programming
+
+* Shared vs non-shared memory communication
+* Mutual exclusion, race conditions and shared-memory locks
+* Synchronous vs asynchronous message passing
+* Communicating Sequential Processes (CSP) and Go
+* Fundamental concepts of channel and communication in CSP
+* Channels and goroutines
+* Multiway communication in Go
+* Dataflow network programming in Go
+* Barrier synchronization
+
+
+Open-ended Tests
+
+* Python
+* Haskell
+* Swift
+* PROLOG
+
+
+===========
+Not covered this term:
+* Petri nets
+* OCCAM
+* Erlang
+* Beta-reduction in Lambda Calculus
+* BNF grammar and parsing techniques in compilers
+* Nothing about OOP
