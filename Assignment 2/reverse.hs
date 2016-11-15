@@ -4,9 +4,9 @@ and returns another list that is the reversal of l.
 What is the most general polymorphic type of "reverse"? 
 -}
 
-reverse' l =  rev l []
+reverse' l = rev l []
   where
-    rev []     a = a
-    rev (x:xs) a = rev xs (x:a)
+    rev [] acc = acc
+    rev (x:xs) acc = rev xs (x:acc)
 
 main = print (reverse' [1..5])
